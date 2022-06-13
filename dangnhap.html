@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/dn.css">
+    <title>Đăng Nhập</title>
+</head>
+<body>
+    <div class="hea">
+        <main>
+            <img src="img/gh.png" id="gh" width="150" height="50">
+            <img src="img/pl.png" width="60" height="60">
+            <a href="dangnhap.html" target="page" id="dk">Đăng ký</a>
+            <img src="img/hang.png" id="h" width="20" height="20">
+        </main>
+        <nav>
+            <a href="/index.html" target="page" id="tt">TRANG CHỦ</a>
+            <a href="" target="page">CÀ PHÊ</a>
+            <a href="" target="page">TRÀ</a>
+            <a href="" target="page">THỨC UỐNG</a>
+            <a href="/sanpham.html" target="page">SẢN PHẨM</a>
+            <a href="" target="page">KHUYẾN MÃI</a>
+            <a href="" target="page">VỀ CHÚNG TÔI</a>
+            <a href="" target="page">THẺ</a>
+            <img src="img/search.png" width="20" height="20">
+        </nav>
+    </div>
+        <header>
+            <img src="img/dn.jpg" width="1500" height="500" style="margin-top: 150px;">
+        </header>
+    <form id="form1">
+        <h2 style="text-align: center;">ĐĂNG KÝ THẺ THÀNH VIÊN PHÚC LONG</h2>
+        <p>
+            <label>Họ Và Tên</label><br>
+            <input id="ht" type="text" class="txt">
+        </p>
+        <p>
+            <fieldset id="fs1">
+                <legend>Giới Tính</legend>
+                <input type="radio" name="gt" value="Nam"><label>Nam</label>
+                <input type="radio" name="gt" value="Nữ"><label>Nữ</label><br>
+            </fieldset>
+        </p>
+        <p>
+            <label>Email</label><br>
+            <input id="email" type="text" class="txt">
+        </p>
+        <p>
+            <label>Địa chỉ</label><br>
+            <input id="dc" type="text" class="txt">
+        </p>
+        <p>
+            <label>Số Điện Thoại</label><br>
+            <input id="sdt" type="number" class="txt">
+        </p>
+        <label>Ghi chú</label><br>
+        <textarea id="ghichu" cols="54" rows="5" class="txt"></textarea>
+        <div id="baoloi"></div>
+        <button type="button" onclick=" kiemtra();" id="dangki">Đăng Ký</button>
+    </form>
+    <br>
+    
+        <footer>
+            <div class="footer">
+            Trụ sở chính: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719<br>
+            do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021<br>
+            Nhà máy: D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình
+            Dương,
+            Việt Nam<br>
+            Địa chỉ: 42/24 - 42/26 Đường 643 Tạ Quang Bửu, phường 4, quận 8, Hồ Chí Minh<br>
+            Điện thoại: 028 6263 0377 - 6263 0378<br>
+            Fax: (028) 6263 0379<br>
+            Email: Sales@phuclong.com.vn<br>
+            Info@phuclong.com.vn<br>
+        </div>
+        </footer>
+        <script src="dangnhap.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="/css/sanpham.css">
+    <title>Sản phẩm Phúc Long & Tea</title>
+</head>
+<body>
+    <div class="hea">
+        <main>
+            <div class="giohang">
+                <a onclick="showcart()"><img src="img/hang.png"><span id="countsp">0</span></a>
+            </div>
+            <div id="showcart">
+                <table>
+                    <tr>
+                        <th>STT</th>
+                        <th>Hình</th>
+                        <th>Tên Sản Phẩm</th>
+                        <th>Đơn Giá</th>
+                        <th>Số Lượng</th>
+                        <th>Thành Tiền</th>
+                    </tr>
+                    <tbody id="mycart">
+                        <a href="giohang.html">Thanh toán</a>
+                        </tbody>
+                </table>
+                
+            </div>
+            <img src="img/gh.png" id="gh" width="150" height="50">
+            <img src="img/pl.png" width="60" height="60">
+            <a href="dangnhap.html" target="page" id="dk">Đăng ký</a>
+        </main>
+        <nav>
+            <a href="/index.html" target="page" id="tt">TRANG CHỦ</a>
+            <a href="" target="page">CÀ PHÊ</a>
+            <a href="" target="page">TRÀ</a>
+            <a href="" target="page">THỨC UỐNG</a>
+            <a href="/sanpham.html" target="page">SẢN PHẨM</a>
+            <a href="" target="page">KHUYẾN MÃI</a>
+            <a href="" target="page">VỀ CHÚNG TÔI</a>
+            <a href="" target="page">THẺ</a>
+            <img src="img/search.png" width="20" height="20">
+        </nav>
+    </div>
+    <header>
+        <img src="img/banner2.jpg" width="1500" height="500" style="margin-top: 150px;">
+    </header>
+        <h1 style="text-align: center;">Sản Phẩm</h1>
+        <div class="Column">
+            <div class="boxsp">
+                <div class="sp img"><img src="img/tuiloc.png" height="200"></div>
+                <div class="ten">Trà Hoa Hồng túi lọc</div>
+                    <p><span>33.385đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/tvtuiloc.png" height="200"></div>
+                <div class="ten">Trà vải túi lọc</div>
+                    <p><span>36.327đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/txtn.jpg" height="200"></div>
+                <div class="ten">Trà xanh Thái Nguyên</div>
+                    <p><span>28.473 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/king+.png" height="200"></div>
+                <div class="ten">Cà Phê King + Finn Nhôm</div>
+                    <p><span>105.055 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/ru.png" height="200"></div>
+                <div class="ten">Cà phê Robu+Finn Nhôm</div>
+                    <p><span>85.471 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/cfvani.png" height="200"></div>
+                <div class="ten">Cà Phê Vanila</div>
+                    <p><span>72.655 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/cfrich.png" height="200"></div>
+                <div class="ten">Cà phê Rich</div>
+                    <p><span>103.091 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/th.png" height="200"></div>
+                <div class="ten">Trà Ô Lông Thượng Hạng</div>
+                    <p><span>343.637 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/otl.png" height="200"></div>
+                <div class="ten">Trà Ô Lông Túi Lọc</div>
+                    <p><span>35.345 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/tlg.png" height="200"></div>
+                <div class="ten">Trà Lon Giấy</div>
+                    <p><span>54.000 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/tx.jpg" height="200"></div>
+                <div class="ten">Trà Xanh 15</div>
+                    <p><span>142.363 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+            <div class="boxsp">
+                <div class="sp img"><img src="img/cpc.jpg" height="200"></div>
+                <div class="ten">Cà Phê Cherry</div>
+                    <p><span>122.727 đ</span></p>
+                    <input type="number" name="soluong" min="1" max="10" value="1">
+                    <button onclick="themvaogiohang(this)">Đặt hàng</button>
+            </div>
+        </div>
+        <br>
+        <footer>
+            <div class="footer">
+                Trụ sở chính: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316 871719<br>
+                do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021<br>
+                Nhà máy: D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III, phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình
+                Dương,
+                Việt Nam<br>
+                Địa chỉ: 42/24 - 42/26 Đường 643 Tạ Quang Bửu, phường 4, quận 8, Hồ Chí Minh<br>
+                Điện thoại: 028 6263 0377 - 6263 0378<br>
+                Fax: (028) 6263 0379<br>
+                Email: Sales@phuclong.com.vn<br>
+                Info@phuclong.com.vn<br>
+            </div>
+        </footer>
+        <script src="thuvien.js">
+        </script>
+</body>
+</html>

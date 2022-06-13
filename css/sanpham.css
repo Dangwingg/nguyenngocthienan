@@ -1,0 +1,146 @@
+body{
+    background-color: whitesmoke;
+}
+nav{
+    line-height: 40px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    font-variant: small-caps;
+}
+nav>a{
+    color: gray;
+    text-decoration: none;
+    margin: 0 40px;
+    font-family: sans-serif
+}
+nav>a:hover{
+    color: green;
+}
+main{
+    background-color: white;
+    text-align: center;
+}
+main>a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main>a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+#dk{
+    float: right;
+}
+#gh{
+    float: left;
+}
+#h{
+    float: right;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+#post{
+    width: 660px;
+    height: 150px;
+    background-color: white;
+    float: left;
+}
+#sl{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    float: right;
+}
+#ng{
+    float: right;
+}
+#tt{
+    color: green;
+}
+.boxsp{
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+    padding: 20px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 200px;
+}
+.boxsp img{
+    max-width: 95%;
+}
+.boxsp .ten{
+    font-size: larger;
+    color: black;
+}
+#showcart{
+    position: fixed;
+    border-radius: 10px;
+    right: 20px;
+    top: 70px;
+    padding: 10px;
+    background-color: white;
+    border: 2px green solid;
+}
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.footer{
+    padding-top: 50px;
+    height: 200px;
+    background-color: green;
+    color: whitesmoke;
+    margin-top: 1200px;
+}
+.hea{
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    line-height: 60px;
+}
+.giohang{
+    position: fixed;
+    border-radius: 5px;
+    right: 70px;
+    height: 10px;
+    background-image: linear-gradient(white,white);
+    padding: 4px;
+}
+.giohang img{
+    width: 20px;
+    margin-right: 5px;
+}
+.giohang span {
+    font-size: 20px;
+    color: red;
+    height: 10px;
+    line-height: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    background-color: whitesmoke;
+    border: 1px solid green;
+    padding: 6px;
+    text-align: center;
+}
+td img{
+    width: 60px;
+    height: 60px;
+}

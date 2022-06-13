@@ -1,0 +1,99 @@
+nav{
+    line-height: 40px;
+    background-color: white;
+    color: green;
+    text-align: center;
+    font-variant: small-caps;
+}
+nav>a{
+    color: gray;
+    text-decoration: none;
+    margin: 0 40px;
+    font-family: sans-serif
+}
+nav>a:hover{
+    color: green;
+}
+main{
+    background-color: white;
+    text-align: center;
+}
+main>a{
+    color: black;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main>a:hover{
+    color: gray;
+    text-decoration: underline;
+}
+#dk{
+    float: right;
+}
+#gh{
+    float: left;
+}
+#h{
+    float: right;
+    margin-top: 20px;
+}
+#gt{
+    float: left;
+}
+#gt1{
+    float: right;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+#post{
+    width: 660px;
+    height: 150px;
+    background-color: white;
+    float: left;
+}
+#sl{
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    float: right;
+}
+#ng{
+    float: right;
+}
+#tt{
+    color: green;
+}
+#tra{
+    color: green;
+    text-align: center;
+    font-size: 20px;
+}
+/* #chu{
+    float:right;
+    padding-left: 200px;
+    padding-right: 200px;
+} */
+footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    height: 200px;
+    background-color: green;
+    color: whitesmoke;
+}
+.hea{
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    line-height: 60px;
+}
